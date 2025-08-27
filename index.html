@@ -14,7 +14,7 @@
 <body>
    <header>
         <nav class="">
-            <div class=" md:flex justify-between ml-5  ">
+            <div class=" md:flex justify-between ml-5 mb-3 ">
                 <div class="flex justify-center items-center md:flex items-center gap-1 p-2 lg:gap-5  ">
                     <div>
                         <img src="assets/logo.png" alt="" class="max-w-[4rem]">
@@ -28,10 +28,10 @@
                       <button class="btn bg-[#41ff6b1a] rounded-[30px]"><span id="love-count" class=" text-3xl font-bold ">0</span><span><img src="assets/heart.png" alt="" class="max-w-[2rem] "></span></button>
                     </div>
                     <div>
-                      <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span class="text-3xl font-bold">100</span><span><img src="assets/coin.png" alt="" class="max-w-[2rem]"></span></button>
+                      <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span id="coin-count" class="text-3xl font-bold">100</span><span><img src="assets/coin.png" alt="" class="max-w-[2rem]"></span></button>
                     </div>
                     <div>
-                      <button class="bg-[#00a63e] text-white  max-w-full px-2 py-1 rounded-3xl mr-8">2 copy</button>
+                      <button class="bg-[#00a63e] text-white  max-w-full px-2 py-1 rounded-3xl mr-8 text-2xl font-bold"><span id="copy-count">0</span> copy</button>
                     </div>
                     
                 </div>
@@ -45,6 +45,7 @@
    </header>
    <main class="bg-[#f5fff6] ">
         <div class="w-full mx-auto lg:w-12/13 m-auto grid grid-cols-12 gap-8    ">
+      <!-- cart section  -->
             <div class="col-span-12 gap-4 mt-5 grid grid-cols-1 md:grid-cols-3 grid-rows-3 md:col-span-9">
                 <div class="bg-white shadow p-7 rounded-2xl ">
                     <div class="flex justify-between items-center">
@@ -52,10 +53,10 @@
                         <button id="heart-btn" class="heart-btn text-gray-500 text-2xl"><i class="fa-regular fa-heart"></i></button>
                     </div>
                     <div class="mb-5">
-                        <h2 class="text-2xl font-bold">National Emergency Number</h2>
+                        <h2 class="text-2xl font-bold help-line-num">National Emergency Number</h2>
                         <p>National Emergency</p>
                         <br>
-                        <p class="text-2xl font-bold">999</p>
+                        <p class="text-2xl font-bold help-line-number">999</p>
                         <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span class="text-2xl text-gray-500">All</span></button>
                         
                     </div>
@@ -69,10 +70,10 @@
                         <button id="heart-btn" class="heart-btn text-gray-500 text-2xl"><i class="fa-regular fa-heart"></i></button>
                     </div>
                     <div class="mb-5">
-                        <h2 class="text-2xl font-bold">Police Helpline Number</h2>
+                        <h2 class="text-2xl font-bold help-line-num">Police Helpline Number</h2>
                         <p>Police</p>
                         <br>
-                        <p class="text-2xl font-bold">999</p>
+                        <p class="text-2xl font-bold help-line-number">999</p>
                         <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span class="text-2xl text-gray-500">Police</span></button>
                         
                     </div>
@@ -86,10 +87,10 @@
                         <div id="heart-btn" class="heart-btn text-gray-500 text-2xl"><i class="fa-regular fa-heart"></i></div>
                     </div>
                     <div class="mb-5">
-                        <h2 class="text-2xl font-bold">Fire Service Number</h2>
+                        <h2 class="text-2xl font-bold help-line-num">Fire Service Number</h2>
                         <p>Fire Service</p>
                         <br>
-                        <p class="text-2xl font-bold">999</p>
+                        <p class="text-2xl font-bold help-line-number">999</p>
                         <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span class="text-2xl text-gray-500">Fire</span></button>
                         
                     </div>
@@ -103,12 +104,11 @@
                         <div id="heart-btn" class="heart-btn text-gray-500 text-2xl"><i class="fa-regular fa-heart"></i></div>
                     </div>
                     <div class="mb-5">
-                        <h2 class="text-2xl font-bold">Ambulance Service</h2>
+                        <h2 class="text-2xl font-bold help-line-num">Ambulance Service</h2>
                         <p>Ambulance</p>
                         <br>
-                        <p class="text-2xl font-bold">1994-999999</p>
-                        <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span class="text-2xl text-gray-500"></span></button>
-                        <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span class="text-2xl text-gray-500"></span></button>
+                        <p class="text-2xl font-bold help-line-number">1994-999999</p>
+                        <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span class="text-2xl text-gray-500"><p>Service</p></span></button>
                         
                     </div>
                     <div class="flex gap-5 pr-5">
@@ -121,10 +121,10 @@
                         <div id="heart-btn" class="heart-btn text-gray-500 text-2xl"><i class="fa-regular fa-heart"></i></div>
                     </div>
                     <div class="mb-5">
-                        <h2 class="text-2xl font-bold">Women & Child Helpline</h2>
+                        <h2 class="text-2xl font-bold help-line-num">Women & Child Helpline</h2>
                         <p>Women & Child Helpline</p>
                         <br>
-                        <p class="text-2xl font-bold">109</p>
+                        <p class="text-2xl font-bold help-line-number">109</p>
                         <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span class="text-2xl text-gray-500">Help</span></button>
                         
                     </div>
@@ -138,10 +138,10 @@
                         <div id="heart-btn" class="heart-btn text-gray-500 text-2xl"><i class="fa-regular fa-heart"></i></div>
                     </div>
                     <div class="mb-5">
-                        <h2 class="text-2xl font-bold">Anti-Corruption Helpline</h2>
+                        <h2 class="text-2xl font-bold help-line-num">Anti-Corruption Helpline</h2>
                         <p>Anti-Corruption</p>
                         <br>
-                        <p class="text-2xl font-bold">106</p>
+                        <p class="text-2xl font-bold help-line-number">106</p>
                         <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span class="text-2xl text-gray-500">Govt</span></button>
                         
                     </div>
@@ -155,10 +155,10 @@
                         <div id="heart-btn" class="heart-btn text-gray-500 text-2xl"><i class="fa-regular fa-heart"></i></div>
                     </div>
                     <div class="mb-5">
-                        <h2 class="text-2xl font-bold">Electricity Helpline</h2>
+                        <h2 class="text-2xl font-bold help-line-num">Electricity Helpline</h2>
                         <p>Electricity Outage</p>
                         <br>
-                        <p class="text-2xl font-bold">16216</p>
+                        <p class="text-2xl font-bold help-line-number">16216</p>
                         <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span class="text-2xl text-gray-500">Electricity</span></button>
                         
                     </div>
@@ -172,10 +172,10 @@
                         <div id="heart-btn" class="heart-btn text-gray-500 text-2xl"><i class="fa-regular fa-heart"></i></div>
                     </div>
                     <div class="mb-5">
-                        <h2 class="text-2xl font-bold">Brac Helpline</h2>
+                        <h2 class="text-2xl font-bold help-line-num">Brac Helpline</h2>
                         <p>Brac</p>
                         <br>
-                        <p class="text-2xl font-bold">16445</p>
+                        <p class="text-2xl font-bold help-line-number">16445</p>
                         <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span class="text-2xl text-gray-500">NGO</span></button>
                         
                     </div>
@@ -189,10 +189,10 @@
                         <div id="heart-btn" class="heart-btn text-gray-500 text-2xl"><i class="fa-regular fa-heart"></i></div>
                     </div>
                     <div class="mb-5">
-                        <h2 class="text-2xl font-bold">Bangladesh Railway Helpline </h2>
+                        <h2 class="text-2xl font-bold help-line-number">Bangladesh Railway Helpline </h2>
                         <p>Bangladesh Railway</p>
                         <br>
-                        <p class="text-2xl font-bold">163</p>
+                        <p class="text-2xl font-bold help-line-number">163</p>
                         <button class="btn bg-[#41ff6b1a]  rounded-[30px] p-"><span class="text-2xl text-gray-500">Travel</span></button>
                         
                     </div>
@@ -201,6 +201,7 @@
                     </div>
                 </div>
             </div>
+            <!-- call hestory section -->
              <div class="bg-white col-span-12 shadow p-3 md:col-span-3">
                 <div class="flex justify-between items-center mb-8">
                     <div class="flex gap-2 items-center">
@@ -208,17 +209,11 @@
                         <h2 class="font-bold text-1xl lg:text-2xl">Call History</h2>
                     </div>
                     <div>
-                         <button class="bg-[#00a63e] text-white px-4 py-2 rounded-3xl ">Clear</button>
+                         <button id="clear-btn" class="bg-[#00a63e] text-white px-4 py-2 rounded-3xl ">Clear</button>
                     </div>
                 </div>
-                <div class="flex justify-between items-center bg-[#fafafa] shadow  rounded-2xl">
-                    <div>
-                        <h2 class="font-bold text-1xl">Fire Service Number</h2>
-                        <p class="text-gray-500 text-[16px]">999</p>
-                    </div>
-                    <div>
-                        <p class="text-gray-500">11:36:58 AM</p>
-                    </div>
+                <div id="cart-contenar">
+                   
                 </div>
             </div>
         </div>
