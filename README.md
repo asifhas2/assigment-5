@@ -1,6 +1,6 @@
 → Assignment 05 all question answer: 
 
-★ question 1 → answer : 
+★ question 1 → answer :
 
 * getElementById("id name ") : 
 ১. Html এর একটি নির্দিষ্ট element id দিয়ে খুজে বের করে। 
