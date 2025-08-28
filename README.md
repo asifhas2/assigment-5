@@ -1,3 +1,5 @@
+→ Assignment 05 all question answer : 
+
 ★ question 1 → answer : 
 
 * getElementById("id name ") : 
