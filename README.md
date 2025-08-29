@@ -1,6 +1,9 @@
 → Assignment 05 all question answer: 
 
-★ question 1 → answer :
+★ question 1 →
+What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
+
+answer :
 
 * getElementById("id name ") : 
 ১. Html এর একটি নির্দিষ্ট element id দিয়ে খুজে বের করে। 
@@ -25,24 +28,32 @@
 ৩. বড় পরিসরে ব্যাবহার তেমন সুবিধা জনক না।
 
 
-★Question 02→ Answer:
+★Question 02→How do you create and insert a new element into the DOM?
+
+Answer:
 
 step1: প্রথমে একটি বেরিয়েবল সেখানে আমি html এর যে যায়গায় বসাতে চাই তা খুজে বের করতে হবে 
 step2: আরেকটি বেরিয়েবল নিয়ে সেখানে নতুন একটু element create( document.createElement(" element name"))করতে হবে। 
-৩.তৈরি করা element এর সাথে কনটেস্ট(.inner html or any contest ) যোগ করা। 
-৪.html এর যেখানে বসাবো তা খুজে বের করে append করে দেওয়া।
+step3: তৈরি করা element এর সাথে কনটেস্ট(.inner html or any contest ) যোগ করা। 
+step4: html এর যেখানে বসাবো তা খুজে বের করে append করে দেওয়া।
 
-★Question 03 → Answer :
+★Question 03 →What is Event Bubbling and how does it work?
+
+Answer :
 
 Event bubbling হলো এমন একটি ঘটনা যা কোন কিছু উপর ক্লিক করলে সে ওই সময় শুধু সে কাজ করে না বরং তার প্যারেন্ট → তার প্যারেন্ট এইভাবে করে উপরে দিকে ওঠতে থাকে। 
-এটার মধ্যে কোন কিছু সহজে খুজে বের করা যায়। 
+এটার মাধ্যমে কোন কিছু সহজে খুজে বের করা যায়। 
 
-★Qushon04→ Answer :
+★Qushon04→What is Event Delegation in JavaScript? Why is it useful?
+
+Answer :
 
 *point1 :  Delegation হলো এমন একটি মেথড যার মাধ্যমে আমরা একটা একটা Event listener না এড করে শুধু একটি মাএ parent element এর মধ্যে event listener এড করি এবং এর পরে Event bubbling এর মাধ্যমে যে কোন element খুজে বের করে সেখানে event এড করতে পারি। 
 *point02: এর ফলে আমাদের code এর গোছানো থাকে এবং ব্রাউজার এ তারাতাড়ি লোড হয়। 
 
-★Qushon05→ Answer : 
+★Qushon05→What is the difference between preventDefault() and stopPropagation() methods?
+
+Answer : 
 
 preventDefault() : এটি সাধারণত কোন ব্রাউজার এর default behaviour এটি বন্ধ করে দেয়,, যার মধ্যেমে কোন লিংক যদি ক্লিক করা হয় শুধু ওইটা কাজ করে অন্য কোন behaviour থাকে না। 
 
